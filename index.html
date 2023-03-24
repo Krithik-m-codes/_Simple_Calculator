@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start of Header-->
+    <header>
+        <h3>Simple Calculator <span>3000</span> </h3>
+    </header>
+
+    <!--Start of Main-->
+    <main>
+
+        <!--Div to store the buttons and result-->
+        <div class="calculator">
+            <input type="text" aria-label="result" readonly id="result">
+            <!--Table to contain the buttons in an orderly manner-->
+            <table>
+                <!--Table Body from below-->
+                <tbody></tbody>
+                <tr>
+                    <!--Table data to contain the first row-->
+                    <td class="btn-yellow"><button class="btn btn-white" value="clear">CE</button></td>
+                    <td class="btn-yellow"><button class="btn ft-small btn-white" value="C" >C</button></td>
+                    <td class="btn-yellow"><button class="btn ft-small btn-white" value="%">%</button></td>
+                    <td class="btn-yellow"><button class="btn btn-white" value="*">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <!--Table data to contain the second row-->
+                    <td class="btn-grey"><button class="btn btn-white" value="7">7</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="8">8</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="9">9</button></td>
+                    <td class="btn-yellow"><button class="btn btn-white" value="+">+</button></td>
+                </tr>
+                <tr>
+                    <!--Table data to contain the third row-->
+                    <td class="btn-grey"><button class="btn btn-white" value="4">4</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="5">5</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="6">6</button></td>
+                    <td class="btn-yellow"><button class="btn btn-white" value="-" >-</button></td>
+                </tr>
+                <tr>
+                    <!--Table data to contain the fourth row-->
+                    <td class="btn-grey"><button class="btn btn-white" value="1">1</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="2">2</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="3">3</button></td>
+                    <td class="btn-yellow"><button class="btn btn-white" value="/" >/</button></td>
+                </tr>
+                <tr>
+                    <!--Table data to contain the last row-->
+                    <td class="btn-grey"><button class="btn btn-white" value="00" >00</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value="0">0</button></td>
+                    <td class="btn-grey"><button class="btn btn-white" value=".">.</button></td>
+                    <td class="btn-equal btn-white-equal"><button class="btn btn-white" value="=">=</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
